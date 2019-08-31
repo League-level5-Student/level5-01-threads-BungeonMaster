@@ -27,8 +27,6 @@ public class ThreadedReverseGreeting {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
-			
 		}
 		
 		System.out.println("Hello from Thread " + threadNumber + "!");

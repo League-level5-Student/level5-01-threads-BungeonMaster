@@ -20,7 +20,7 @@ public class ThreadPoolTest {
 
 	@Test
 	public void test() {
-		int total = 16; //536870912;
+		int total = 16; //536870912 was the original number but it was too big to handle, any perfect square works
 		
 		ThreadPool tp = new ThreadPool(4);
 		char[] chars = new char[total];
